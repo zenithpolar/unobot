@@ -91,7 +91,7 @@ def new_game(bot, update):
         game.mode = DEFAULT_GAMEMODE
         send_async(bot, chat_id,
                    text=_("Created a new game! Join the game with /join "
-                          "and start the game with /start"))
+                          "and start the game with /start (obrigado chonas uWu)"))
 
 
 @user_locale
